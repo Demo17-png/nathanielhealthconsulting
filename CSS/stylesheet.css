@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border-bottom: solid 3px #dfe0e2;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 0;
+    padding: 5px 2px;
+    overflow: hidden;
+}
+#logo img{
+    width: 350px;
+    height: 245px;
+    float: left;
+    display: block;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    padding: 15px 5px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav #contact{
+    background-color: white;
+    padding: 5px 10px;
+    border: purple solid 3px;
+    color: black;
+    border-radius: 5px;
+}
+nav #Gallery{
+    background-color: white;
+    padding: 5px 10px;
+    border: purple solid 3px;
+    color: black;
+    border-radius: 5px;
+}
+.banner{
+    background-image: url(../Images/missedfabric2.png);
+    height: 1400px;
+    background-size: cover;
+    color: #fff;
+}
+.banner h1{
+    font-size: 45px;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(41,48,59,55);
+    padding-top: 600px;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+.fashion{
+    text-align: center;
+    background-color: pink;
+    color: purple;
+}
+.fashion-item{
+    display: inline-block;
+    width: 33%;
+    padding: 10px 0px;
+    text-align: left;
+}
+.fashion-item img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 0px 30px;
+}
+.service h1{
+    background-color: aliceblue;
+    padding-top: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+#service-item{
+    display: inline-flex;
+    color: red;
+    padding-left: 70px;
+    padding-top: 5px;
+}
+#service-item img{
+    height: 350px;
+}
+#service-item h2{
+    padding-top: 150px;
+    padding-right: 40px;
+    padding-left: 50px;
+}
+.footer{
+    background-color: whitesmoke;
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+    color: purple;
+}
+/* Base styles (for mobile) */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Tablet and larger */
+@media (min-width: 768px) {
+    /* Adjust styles for tablets */
+}
+/* Use percentage or viewport units for widths */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Optional max-width */
+    margin: 0 auto;
+    padding: 0 15px; /* Add padding on mobile */
+}
+
+/* Flexible images */
+img {
+    max-width: 100%;
+    height: auto;
+}
