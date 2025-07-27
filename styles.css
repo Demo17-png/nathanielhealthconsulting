@@ -192,15 +192,12 @@ h2 {
     font-size: 1.1em;                                  
 }
 .icon-1 {
-    width: 20vw;
+    width: 100vw;
     height: 200px;
 }
-.docs {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 .dr-orolu, .dr-ortho {
-    width: 50vw;
+    width: 100vw;
     height: 600px;
     padding-inline: 10px;
 }
@@ -250,15 +247,11 @@ h2 {
     font-size: 1.3em;
 }
 .icon-1 {
-    width: 20vw;
+    width: 100vw;
     height: 200px;
 }
-.docs {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 .dr-orolu, .dr-ortho {
-    width: 50vw;
+    width: 100vw;
     height: 600px;
     padding-inline: 10px;
 }
