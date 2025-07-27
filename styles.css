@@ -253,7 +253,7 @@ h2 {
     font-size: 1.3em;
 }
 .icon-1 {
-    width: 100%;
+    width: 100vw;
     height: 200px;
 }
 .docs {
