@@ -192,8 +192,9 @@ h2 {
     font-size: 1.1em;                                  
 }
     .grid {
-        display: block;
-    }
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .icon-1 {
     width: 100vw;
     height: auto;
@@ -249,9 +250,10 @@ h2 {
 .profile {
     font-size: 1.3em;
 }
-  .grid {
-        display: block;
-    }
+ .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .icon-1 {
     width: 100vw;
     height: auto;
