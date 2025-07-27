@@ -191,9 +191,6 @@ h2 {
     text-align: center;
     font-size: 1.1em;                                  
 }
-.grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
 .icon-1 {
     width: 20vw;
     height: 200px;
@@ -223,7 +220,6 @@ h2 {
 
 .sect {
     background-color: brown;
-    display: flex;
     justify-content: space-around;
 }
 h1 {
