@@ -196,7 +196,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .icon-1 {
-    width: 20vw;
+    width: 100vw;
     height: 200px;
 }
 .docs {
