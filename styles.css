@@ -196,12 +196,12 @@ h2 {
     }
 .icon-1 {
     width: 100vw;
-    height: 400px;
+    height: auto;
 }
 
 .dr-orolu, .dr-ortho {
     width: 100vw;
-    height: 800px;
+    height: auto;
     padding-inline: 10px;
 }
 .footer, .nhcl {
@@ -254,11 +254,11 @@ h2 {
     }
 .icon-1 {
     width: 100vw;
-    height: 400px;
+    height: auto;
 }
 .dr-orolu, .dr-ortho {
     width: 100vw;
-    height: 800px;
+    height: auto;
     padding-inline: 10px;
 }
 .footer, .nhcl {
