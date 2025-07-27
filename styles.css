@@ -167,7 +167,6 @@ p {
 
 .sect {
     background-color: brown;
-    display: flex;
     justify-content: space-around;
 }
 h1 {
