@@ -195,7 +195,7 @@ span {
 }
 @media (max-width: 601px) {
   header {
-    width: 100%;
+    width: ;
   }
   .pic-1 {
     width: 100%; 
