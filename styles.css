@@ -242,6 +242,9 @@ span {
 
 @media (max-width: 768px) {
 
+  header {
+       justify-content: space-around;
+  }
   nav {
     margin-right: 10px;
      display: block;   
