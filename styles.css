@@ -198,7 +198,8 @@ span {
 @media (max-width: 600px) {
       header {
      flex-direction: column;
-     align-items: flex-start;       
+     align-items: flex-start;
+     padding: 10px;       
       }
             
   .pic-1 {
