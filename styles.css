@@ -197,9 +197,6 @@ span {
     text-align: center;
 }
 @media (max-width: 601px) {
-  header {
-    width: 100%;
-  }
   .pic-1 {
     width: 100%; 
   }
