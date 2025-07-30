@@ -7,6 +7,7 @@
     }
     header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 nav {
@@ -196,8 +197,7 @@ span {
 }
 @media (max-width: 601px) {
       header {
-            width: 80vw;
-            overflow-x: unset;
+            
   .pic-1 {
     width: 100%; 
   }
