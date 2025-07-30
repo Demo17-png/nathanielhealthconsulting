@@ -186,8 +186,8 @@ span {
     color: #333;
 }
 .nhcl {
-    background: linear-gradient(to right, green);
-    margin: 15px 0;
+    background-color: green;
+    margin: 15p
     padding: 15px 15px; 
     width: 100vw;
     color: aliceblue;
