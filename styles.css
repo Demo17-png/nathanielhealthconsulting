@@ -195,19 +195,19 @@ span {
 }
 @media (max-width: 601px) {
   header {
-    width: 600px;
+    width: 100%;
   }
   .pic-1 {
-    width: 600px; 
+    width: 100%; 
   }
   .sect {
-    width: 600px;
+    width: 100%;
   }
   button {
     margin: 10px 40px 10px 200px;
   }
   .about-us {
-    width: 550px;
+    width: 100%;
   }
   h3 {
     margin: 10px 40px 10px 200px;
@@ -217,16 +217,16 @@ span {
     display: flex;
   }
   .profile {
-    width: 580px;
+    width: 100%;
   }
   .down {
     margin: 10px 40px 10px 250px;
   }
   .footer {
-    width: 580px;
+    width: 100%;
   }
   .nhcl {
-    width: 580px;
+    width: 100%;
   }
   .profile {
   line-height: 2em;
