@@ -201,6 +201,10 @@ span {
      align-items: flex-start;
      padding: 10px;       
       }
+
+ nav {
+    width: 100%;
+ }
             
   .pic-1 {
     width: 100%; 
