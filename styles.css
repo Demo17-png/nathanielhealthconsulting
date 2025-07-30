@@ -236,6 +236,10 @@ span {
 }
 
 @media (max-width: 768px) {
+
+  nav {
+        margin-right: 10px;
+  }
 .pic-1 {
      flex-direction: column;
      padding: 20px;
