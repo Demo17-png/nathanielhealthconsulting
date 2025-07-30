@@ -1,0 +1,269 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+}
+nav {
+    margin-left: 10px;
+}
+nav li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(146, 6, 6);
+    line-height: 1.4em;
+}
+.logo {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+body {
+      font-family: Arial, sans-serif;
+    }
+.pic-1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(to right, green,  rgb(146, 6, 6));
+      padding: 40px;
+      min-height: 300px;
+      color: white;
+      flex-wrap: wrap;     
+}
+.banner-text {
+    flex: 1;
+    min-width: 280px;
+    margin-right: 20px;
+}
+.banner-text p {
+    margin-bottom: 25px;
+    font-size: 1.2em;
+}
+.opd-doctor {
+      flex: 1;
+      min-width: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+ }
+ .opd-doctor img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+ }
+ h1 {
+    color: azure;
+    text-shadow: 70%;
+ }
+ .custodian {
+    color: azure;
+    text-shadow: 70%;
+    margin-top: 20px;
+ }
+.sect {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+h2 {
+    color: rgb(146, 6, 6);
+    text-align: center;
+    font-size: 1.3em;  
+    padding: 20px 0 20px 0;                                 
+}
+button {
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 1.3em;
+    display: block;
+    margin: 10px auto 10px auto;
+    padding: 15px;
+    color: azure;
+    font-weight: bold;
+    background-color: green;
+}
+.about-us {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.4em;
+    line-height: 3em;
+}
+h3 {
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 1.3em;
+    display: block;
+    margin: 10px auto 10px auto;
+    padding: 15px;
+    color: azure;
+    font-weight: bold;
+    background-color: green;
+    text-align: center; 
+}
+.icon {
+    background-color: transparent;
+    width: 100px;
+    height: 100px; 
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.icon-1 {
+    background-color: transparent;
+    width: 600px;
+    height: 500px; 
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.grid {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+h4 {
+    color: rgb(146, 6, 6);
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#our-doctors {
+    margin-top: 40px;
+}
+.docs {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.dr-orolu {
+    background-color: transparent;
+    width: 600px;
+    height: 500px; 
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.dr-ortho {
+    background-color: transparent;
+    width: 600px;
+    height: 700px; 
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+.profile {
+    background-color: transparent;
+    padding: 20px 40px;
+    line-height: 1.6em;
+    text-align: justify;
+    font-weight: 500;
+}
+.rols {
+    font-weight: 600;
+}
+span {
+    background-color: transparent;
+    font-weight: bold;
+}
+.footer {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(146, 6, 6);
+}
+.footer-1 {
+    color: #333;
+}
+.nhcl {
+    background-color: green;
+    margin: 30px 0;
+    padding: 15px 15px; 
+    width: 100vw;
+    color: aliceblue;
+    text-align: center;
+}
+@media (max-width: 601px) {
+  header {
+    width: 100%;
+  }
+  .pic-1 {
+    width: 100%; 
+  }
+  .sect {
+    width: 100%;
+  }
+  button {
+    margin: 10px auto;
+  }
+  .about-us {
+    width: 100%;
+  }
+  h3 {
+    margin: 10px auto;
+  }
+  h4 {
+    margin: 10px auto;
+    display: block;
+  }
+  .profile {
+    width: 100%;
+    line-height: 2em;
+    font-size: 1.1em;
+  }
+  .down {
+    margin: 10px auto;
+  }
+  .footer {
+    width: 100%;
+  }
+  .nhcl {
+    width: 100%;
+  }
+  .icon-1, .dr-orolu, .dr-ortho {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  nav {
+    margin-right: 10px;
+}
+.pic-1 {
+     flex-direction: column;
+     padding: 20px;
+     text-align: center;
+      }
+.banner-text {
+     margin-right: 0;
+     margin-bottom: 20px;
+}
+.profile {
+   line-height: 2em;
+   font-size: 1.1em;
+   width: 100%;
+}
+}
+
+
+
+
+  
