@@ -17,7 +17,7 @@ nav li {
 }
 a {
     text-decoration: none;
-    color: grey;
+    color: rgb(146, 6, 6);
     line-height: 1.4em;
 }
 .logo {
@@ -33,7 +33,7 @@ body {
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      background: linear-gradient(to right, green, red);
+      background: linear-gradient(to right, green, rgb(146, 6, 6));
       padding: 40px;
       min-height: 300px;
       color: white;
@@ -75,7 +75,7 @@ body {
     margin-bottom: 30px;
 }
 h2 {
-    color: red;
+    color: rgb(146, 6, 6);
     text-align: center;
     font-size: 1.3em;  
     padding: 20px 0 20px 0;                                 
@@ -134,7 +134,7 @@ h3 {
     margin-bottom: 30px;
 }
 h4 {
-    color: red;
+    color: rgb(146, 6, 6);
     text-align: center;
     font-size: 1.7em;
 }
@@ -180,13 +180,13 @@ span {
 .footer {
     font-weight: bold;
     text-align: center;
-    color: red;
+    color: rgb(146, 6, 6);
 }
 .footer-1 {
     color: #333;
 }
 .nhcl {
-    background: linear-gradient(to right, green, red);
+    background: linear-gradient(to right, green);
     margin: 15px 0;
     padding: 15px 15px; 
     width: 100vw;
