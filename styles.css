@@ -7,9 +7,7 @@
     }
     header {
     display: flex;
-    justify-content: space-between;
-    align-items: ;
-    width: 95vw;
+    align-items: center;
 }
 nav {
     margin-left: 10px;
