@@ -5,10 +5,12 @@
       overflow-x: hidden;
     }
     header {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
-    width: 95vw;
+    width: 95%;
+    max-width: 550px;
+
 }
 nav {
     margin-left: 10px;
