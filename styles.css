@@ -229,6 +229,10 @@ span {
     width: 580px;
 
   }
+      .profile {
+            line-height: 4em;
+            font-size: 2em;
+      }
 }
 
 @media (max-width: 768px) {
@@ -244,7 +248,7 @@ span {
 }
       . profile {
             line-height: 4em;
-            font-size: 1.5em;
+            font-size: 2em;
       }
 }
 
