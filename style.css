@@ -531,9 +531,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .book-item {
-        width: 180px;
-        height: 234.38px;
+        width: 220px;
+        height: 380.38px;
         margin-bottom: 20px;
+    }
+    .htn-book img {
+         height: 343.38px;
     }
 
     .footer-contact-info address,
