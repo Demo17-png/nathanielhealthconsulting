@@ -532,9 +532,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .book-item {
-        width: 320px;
+        width: auto;
         height: 380.38px;
         margin-bottom: 20px;
+        overflow: visible;
     }
     .htn-book img {
          height: 343.38px;
