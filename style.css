@@ -526,12 +526,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .books-container {
-        flex-direction: ror;
+        flex-direction: row;
         align-items: center;
     }
 
     .book-item {
-        width: 150px;
+        width: 100px;
         height: 380.38px;
         margin-bottom: 20px;
 
