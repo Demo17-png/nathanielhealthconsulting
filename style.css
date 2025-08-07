@@ -537,13 +537,6 @@ h1, h2, h3, h4, h5, h6 {
 
     }
 
-    .book-item img {
-        width: 80%;
-    }
-    .htn-book img {
-         height: 243.38px;
-    }
-
     .footer-contact-info address,
     .footer-contact-info a {
         font-size: 0.9em;
