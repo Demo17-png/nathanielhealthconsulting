@@ -526,19 +526,15 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .books-container {
-        flex-direction: column;
+        flex-direction: ror;
         align-items: center;
-        flex-wrap: wrap;
     }
 
     .book-item {
-        width: auto;
+        width: 180px;
         height: 380.38px;
         margin-bottom: 20px;
-        overflow: visible;
-    }
-    .book-item img {
-        width: 320px;
+
     }
     .htn-book img {
          height: 343.38px;
