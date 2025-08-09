@@ -570,7 +570,7 @@ h1, h2, h3, h4, h5, h6 {
         gap: 20px;
     }
     .book-item {
-        width: 150px;
+        width: 100%;
     }
     .buy-now-btn {
         display: 0.9em;
