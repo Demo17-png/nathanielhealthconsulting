@@ -613,7 +613,9 @@ h1, h2, h3, h4, h5, h6 {
     .health-resources-section {
         padding: 40px 20px;
     }
-
+     .digital {
+         width: clamp(12em, 30vw, 16em);
+     }
     .books-container {
         flex-direction: column;
         align-items: center;
