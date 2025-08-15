@@ -615,6 +615,7 @@ h1, h2, h3, h4, h5, h6 {
     }
      .digital {
          width: clamp(12em, 30vw, 16em);
+         font-size: clamp(1.2em, 0.8vw, 1.5em);
      }
     .books-container {
         flex-direction: column;
