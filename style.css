@@ -438,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--primary-color);
 }
 .nuggetpix img {
-    margin: 7px auto;
+    margin: 10px auto;
     display: block;
 }
 #slider {
