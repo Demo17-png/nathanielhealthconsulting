@@ -437,6 +437,9 @@ h1, h2, h3, h4, h5, h6 {
 .learn:hover {
     background-color: var(--primary-color);
 }
+.more {
+    margin: 50px auto;
+}
 #slider {
     overflow: hidden;
 }
